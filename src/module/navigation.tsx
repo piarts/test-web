@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Navigation({ image, page }: { image: string, page: string }) {
 
     return (
@@ -9,7 +11,7 @@ export default function Navigation({ image, page }: { image: string, page: strin
                             <div className="col-md-12 text-center mt-60">
                                 <h1>{page}</h1>
                                 <ul className="breadcrumbs">
-                                    <li><a href="/">Anasayfa</a></li>
+                                    <li><Link href="/">Anasayfa</Link></li>
                                     <li>{page}</li>
                                 </ul>
                             </div>

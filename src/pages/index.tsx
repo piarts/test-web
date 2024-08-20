@@ -138,7 +138,7 @@ function Index() {
                         {
                             (Service || []).map((d: any, x: number) => {
                                 return (
-                                    <div className="col-lg-4 col-md-6 mb-25">
+                                    <div className="col-lg-4 col-md-6 mb-25" key={`Service-list-${x}`}>
                                         <div className="item ">
                                             <div className="wrap">
                                                 <div className="con">
@@ -207,7 +207,7 @@ function Index() {
                                 {
                                     (Portfoy || []).map((d: any, x: number) => {
                                         return (
-                                            <SwiperSlide>
+                                            <SwiperSlide key={`portfoy-list-${x}`}>
                                                 <div className="wrap img-grayscale">
                                                     <div className="img img-grayscale"> <img src={d.image} className="img-fluid" /> </div>
                                                     <div className="text">

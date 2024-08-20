@@ -209,7 +209,7 @@ function Galeri() {
                         {
                             (RefGalery || []).map((d: any, x: number) => {
                                 return (
-                                    <div className="col-lg-4 col-md-6 single-item branding mb-25">
+                                    <div className="col-lg-4 col-md-6 single-item branding mb-25" key={`galery-list-${x}`}>
                                         <div title="" className="img-zoom">
                                             <div className="gallery-box">
                                                 <div className="gallery-img img-grayscale" style={{ backgroundImage: `url(${d.image})`, height: "350px", width: "100%", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>

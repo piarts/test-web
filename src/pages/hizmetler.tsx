@@ -59,7 +59,7 @@ function Hizmetler() {
                         {
                             (Service || []).map((d: any, x: number) => {
                                 return (
-                                    <div className="col-lg-4 col-md-6 mb-25">
+                                    <div className="col-lg-4 col-md-6 mb-25" key={`hizmetler-list-${x}`}>
                                         <div className="item ">
                                             <div className="wrap">
                                                 <div className="con">

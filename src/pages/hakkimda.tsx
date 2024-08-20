@@ -15,11 +15,11 @@ function Hakkimda() {
                             <h6>Art Studio</h6>
                             <h1>Alparslan Çelik Kimdir ?</h1>
                             <p>
-                                1978 yılında Kastamonu'da doğan Çelik, 1994 yılında Kastamonu Sanat Okulu'ndan mezun olduktan sonra sanat ve zanaat alanında kariyerine adım atmıştır. Mezuniyetinin ardından, dönemin en iyi ustalarıyla çalışarak tekne imalatı ve kalıp üretimi gibi alanlarda derinlemesine bir bilgi ve beceri kazanmıştır.
-                                2003 yılında Antalya Serbest Bölgesi'nde kendi işini kurarak, sanatsal vizyonunu daha geniş bir kitleye sunma fırsatı bulmuştur.
+                                1978 yılında Kastamonu da doğan Çelik, 1994 yılında Kastamonu Sanat Okulu ndan mezun olduktan sonra sanat ve zanaat alanında kariyerine adım atmıştır. Mezuniyetinin ardından, dönemin en iyi ustalarıyla çalışarak tekne imalatı ve kalıp üretimi gibi alanlarda derinlemesine bir bilgi ve beceri kazanmıştır.
+                                2003 yılında Antalya Serbest Bölgesi nde kendi işini kurarak, sanatsal vizyonunu daha geniş bir kitleye sunma fırsatı bulmuştur.
                             </p>
                             <p>
-                                Başlangıçta sadece bir hobi olarak gördüğü sanatsal objeler, zamanla onun en büyük tutkusuna dönüşmüş ve profesyonel uygulama alanına dönüşmüştür. Çelik'in çalışmalarında, hayal gücünü gerçeğe dönüştürme ve her projede özgünlük ile estetiği bir araya getirme hedefi ön plandadır.
+                                Başlangıçta sadece bir hobi olarak gördüğü sanatsal objeler, zamanla onun en büyük tutkusuna dönüşmüş ve profesyonel uygulama alanına dönüşmüştür. Çelik in çalışmalarında, hayal gücünü gerçeğe dönüştürme ve her projede özgünlük ile estetiği bir araya getirme hedefi ön plandadır.
                                 Bu tutku ve özveri, onun sanatsal ve teknik becerilerini sürekli olarak geliştirmesine ve her projede yenilikçi çözümler üretmesine olanak tanımıştır.
                             </p>
                             <ul className="list-unstyled list mb-30" hidden>
