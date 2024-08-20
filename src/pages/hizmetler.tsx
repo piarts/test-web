@@ -1,6 +1,7 @@
 import Navigation from "@/module/navigation";
 import Layout from "./layout";
 import Banner from "@/assets/images/banner/banner_1.jpg"
+import Link from "next/link";
 
 
 
@@ -83,7 +84,7 @@ function Hizmetler() {
                         <div className="col-md-12 text-center">
                             <h6 >Hayalleri Gerçekleştiriyoruz</h6>
                             <h5>İletişime Geç</h5>
-                            <a href="tel:+05323064533" className="btn-1 mt-30"> <i className="fa-solid fa-phone"></i>0 532 306 45 33</a>
+                            <Link href="tel:+05323064533" className="btn-1 mt-30"> <i className="fa-solid fa-phone"></i>0 532 306 45 33</Link>
                         </div>
                     </div>
                 </div>

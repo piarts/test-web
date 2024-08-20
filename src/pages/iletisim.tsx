@@ -1,6 +1,7 @@
 import Navigation from "@/module/navigation";
 import Layout from "./layout";
 import Banner from "@/assets/images/banner/banner_1.jpg"
+import Link from "next/link";
 function Iletisim() {
 
 
@@ -18,13 +19,13 @@ function Iletisim() {
                                     <div className="con">
                                         <div className="icon"> <span className="fa-solid fa-phone"></span> </div>
                                         <div className="con-content">
-                                            <p className="text"><a href="tel:05323064533">0532 306 45 33</a></p>
+                                            <p className="text"><Link href="tel:05323064533">0532 306 45 33</Link></p>
                                         </div>
                                     </div>
                                     <div className="con">
                                         <div className="icon"> <span className="fa-solid fa-envelope"></span> </div>
                                         <div className="con-content">
-                                            <p className="text"><a href="mailto:alparsancelik037@gmail.com">alparsancelik037@gmail.com</a></p>
+                                            <p className="text"><Link href="mailto:alparsancelik037@gmail.com">alparsancelik037@gmail.com</Link></p>
                                         </div>
                                     </div>
                                     <div className="con">
@@ -43,13 +44,13 @@ function Iletisim() {
                                     <div className="con">
                                         <div className="icon"> <span className="fa-solid fa-phone"></span> </div>
                                         <div className="con-content">
-                                            <p className="text"><a href="tel:05324962733">0532 496 27 33</a></p>
+                                            <p className="text"><Link href="tel:05324962733">0532 496 27 33</Link></p>
                                         </div>
                                     </div>
                                     <div className="con">
                                         <div className="icon"> <span className="fa-solid fa-envelope"></span> </div>
                                         <div className="con-content">
-                                            <p className="text"><a href="mailto:alparsancelik037@gmail.com">alparsancelik037@gmail.com</a></p>
+                                            <p className="text"><Link href="mailto:alparsancelik037@gmail.com">alparsancelik037@gmail.com</Link></p>
                                         </div>
                                     </div>
                                     <div className="con">

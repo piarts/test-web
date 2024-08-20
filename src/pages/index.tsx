@@ -12,6 +12,7 @@ import Ourworks_6 from "@/assets/images/ourworks/6.jpeg"
 
 import Ourworks_7 from "@/assets/images/ourworks/7.jpg"
 import Ourworks_8 from "@/assets/images/ourworks/8.jpg"
+import Link from "next/link";
 
 function Index() {
 
@@ -210,10 +211,10 @@ function Index() {
                                                 <div className="wrap img-grayscale">
                                                     <div className="img img-grayscale"> <img src={d.image} className="img-fluid" /> </div>
                                                     <div className="text">
-                                                        <a href="services-single.html">
+                                                        <Link href="/">
                                                             <h4 className="mb-0" style={{ color: "#fff" }}>Business Card</h4>
                                                             <p>Cretive & Desing</p>
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                             </SwiperSlide>
@@ -238,10 +239,10 @@ function Index() {
                                     <div className="wrap img-grayscale">
                                         <div className="img img-grayscale"> <img src="images/work/3.jpg" className="img-fluid" /> </div>
                                         <div className="text">
-                                            <a href="services-single.html">
+                                            <Link href="/">
                                                 <h4>Grand Canyon</h4>
                                                 <p>Branding</p>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -249,10 +250,10 @@ function Index() {
                                     <div className="wrap img-grayscale">
                                         <div className="img img-grayscale"> <img src="images/work/4.jpg" className="img-fluid" /> </div>
                                         <div className="text">
-                                            <a href="services-single.html">
+                                            <Link href="/">
                                                 <h4>Power Up Drive</h4>
                                                 <p>Web Design</p>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -260,10 +261,10 @@ function Index() {
                                     <div className="wrap img-grayscale">
                                         <div className="img img-grayscale"> <img src="images/work/5.jpg" className="img-fluid" /> </div>
                                         <div className="text">
-                                            <a href="services-single.html">
+                                            <Link href="/">
                                                 <h4>T-shirt Design</h4>
                                                 <p>Branding</p>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -271,10 +272,10 @@ function Index() {
                                     <div className="wrap img-grayscale">
                                         <div className="img img-grayscale"> <img src="images/work/6.jpg" className="img-fluid" /> </div>
                                         <div className="text">
-                                            <a href="services-single.html">
+                                            <Link href="/">
                                                 <h4>Brochure Design</h4>
                                                 <p>Branding</p>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
