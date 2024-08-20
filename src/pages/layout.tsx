@@ -1,5 +1,6 @@
 import Footer from "@/module/footer";
 import Header from "@/module/header";
+import { useEffect } from "react";
 
 
 
@@ -7,6 +8,11 @@ import Header from "@/module/header";
 
 export default function Layout({ children }: any) {
 
+
+    useEffect(() => {
+
+        document.body.setAttribute("style", "background:#000")
+    }, [])
 
     return (
         <>
